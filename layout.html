@@ -1,0 +1,8 @@
+<div>
+    {{ if .Url}}
+        <h1>Url: {{.Url}}</h1>
+        <img src="{{.Src}}" alt="qrcode" width="320px" height="320px"/>
+    {{ else }}
+        <h1>Enter a URL as a query parameter</h1>
+    {{ end }}
+</div>
